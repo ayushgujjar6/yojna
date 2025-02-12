@@ -13,10 +13,10 @@ export const navbarLinks = [
                 path: "/",
                 hasSubmenu: true,  // Indicates submenu presence
                 submenu: [
-                    { label: "Title 1", path: "/dashboard/title1" },
-                    { label: "Title 2", path: "/dashboard/title2" },
-                    { label: "Title 3", path: "/dashboard/title3" },
-                    { label: "Title 4", path: "/dashboard/title4" },
+                    { label: "Title 1", path: "/titlepage" },
+                    { label: "Title 2", path: "/titlepage2" },
+                    { label: "Title 3", path: "/titlepage3" },
+                    { label: "Title 4", path: "/titlepage4" },
                 ],
             },
             {
@@ -25,10 +25,10 @@ export const navbarLinks = [
                 path: "/analytics",
                 hasSubmenu: true,  // Indicates submenu presence
                 submenu: [
-                    { label: "Title 1", path: "/Analytics/title1" },
-                    { label: "Title 2", path: "/Analytics/title2" },
-                    { label: "Title 3", path: "/Analytics/title3" },
-                    { label: "Title 4", path: "/Analytics/title4" },
+                    { label: "Title 1", path: "/titlepage5" },
+                    { label: "Title 2", path: "/titlepage6" },
+                    { label: "Title 3", path: "/titlepage7" },
+                    { label: "Title 4", path: "/titlepage8" },
                 ],
             },
             {

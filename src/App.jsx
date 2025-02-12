@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ThemeProvider } from "@/contexts/theme-context";
 
 import Layout from "@/routes/layout";
+import About from "../../yojna/src/Component/About"
 import DashboardPage from "@/routes/dashboard/page";
 
 function App() {
@@ -40,8 +41,40 @@ function App() {
                     element: <h1 className="title">Products</h1>,
                 },
                 {
+                    path: "titlepage",
+                    element: <About />,
+                },
+                {
+                    path: "titlepage2",
+                    element: <h1 className="title">Titile 2</h1>,
+                },
+                {
+                    path: "titlepage3",
+                    element: <h1 className="title">Titile 3</h1>,
+                },
+                {
+                    path: "titlepage4",
+                    element: <h1 className="title">Titile 4</h1>,
+                },
+                {
                     path: "new-product",
                     element: <h1 className="title">New Product</h1>,
+                },
+                {
+                    path: "titlepage5",
+                    element: <h1 className="title">Titile 1</h1>,
+                },
+                {
+                    path: "titlepage6",
+                    element: <h1 className="title">Titile 2</h1>,
+                },
+                {
+                    path: "titlepage7",
+                    element: <h1 className="title">Titile 3</h1>,
+                },
+                {
+                    path: "titlepage8",
+                    element: <h1 className="title">Titile 4</h1>,
                 },
                 {
                     path: "inventory",
