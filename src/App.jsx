@@ -25,6 +25,18 @@ function App() {
                     element: <h1 className="title">Reports</h1>,
                 },
                 {
+                    path: "yojana",
+                    element: <Yojana />,
+                },
+                {
+                    path: "new-yojana",
+                    element: <NewYojana />,
+                },
+                {
+                    path: "inventory",
+                    element: <h1 className="title">Inventory</h1>,
+                },
+                {
                     path: "customers",
                     element: <h1 className="title">Customers</h1>,
                 },
