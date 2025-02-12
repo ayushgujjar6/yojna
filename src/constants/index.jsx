@@ -1,4 +1,4 @@
-import { ChartColumn, Home, NotepadText, Package, PackagePlus, Settings, ShoppingBag, UserCheck, UserPlus, Users } from "lucide-react";
+import { ChartColumn, Home, NotepadText, Plus , Package, PackagePlus, Settings, ShoppingBag, UserCheck, UserPlus, Users } from "lucide-react";
 
 import ProfileImage from "@/assets/profile-image.jpg";
 import ProductImage from "@/assets/product-image.jpg";
@@ -15,12 +15,12 @@ export const navbarLinks = [
             {
                 label: "Analytics",
                 icon: ChartColumn,
-                path: "/analytics",
+                path: "/",
             },
             {
                 label: "Reports",
                 icon: NotepadText,
-                path: "/reports",
+                path: "/",
             },
         ],
     },
@@ -33,9 +33,9 @@ export const navbarLinks = [
                 path: "/yojana",
             },
             {
-                label: "New Schemes",
-                icon: PackagePlus,
-                path: "/new-product",
+                label: "New Yojana",
+                icon: Plus ,
+                path: "/new-yojana",
             },
             // {
             //     label: "Inventory",
@@ -50,17 +50,17 @@ export const navbarLinks = [
             {
                 label: "Users",
                 icon: Users,
-                path: "/customers",
+                path: "/",
             },
             {
                 label: "New User",
                 icon: UserPlus,
-                path: "/new-customer",
+                path: "/new-",
             },
             {
                 label: "Verified User",
                 icon: UserCheck,
-                path: "/verified-customers",
+                path: "/",
             },
         ],
     },
@@ -71,7 +71,7 @@ export const navbarLinks = [
             {
                 label: "Settings",
                 icon: Settings,
-                path: "/settings",
+                path: "/",
             },
         ],
     },

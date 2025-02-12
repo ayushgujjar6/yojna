@@ -12,7 +12,7 @@ const DashboardPage = () => {
     
 
     useEffect(() => {
-        const fetchTotalYojana = async () => {
+        const fetchTotalYojana = async () => {  
             try {
                 const response = await fetch("http://localhost:5000/api/total-yojana");
                 const data = await response.json();

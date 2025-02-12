@@ -23,7 +23,7 @@ export const Sidebar = forwardRef(({ collapsed }, ref) => {
             <div className="flex gap-x-3 p-3">
                 <img
                     src="https://seekvectors.com/storage/images/India%20Government-01.jpg"
-                    alt="Logoipsum"
+                    alt="Government"
                     className="dark:hidden h-15 w-20" //src={logoLight}
                 />
                 <img

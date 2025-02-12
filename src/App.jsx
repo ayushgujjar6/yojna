@@ -3,8 +3,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ThemeProvider } from "@/contexts/theme-context";
 
 import Layout from "@/routes/layout";
-import DashboardPage from "@/routes/dashboard/page";
-import Yojana from "./routes/yojana";
+import DashboardPage from "@/routes/page";
+import Yojana from "@/routes/yojana";
+import NewYojana from "@/routes/new-yojana";
 
 function App() {
     const router = createBrowserRouter([
@@ -29,8 +30,8 @@ function App() {
                     element: <Yojana />,
                 },
                 {
-                    path: "new-product",
-                    element: <h1 className="title">New Product</h1>,
+                    path: "new-yojana",
+                    element: <NewYojana />,
                 },
                 {
                     path: "inventory",
