@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/contexts/theme-context";
 
 import Layout from "@/routes/layout";
 import DashboardPage from "@/routes/dashboard/page";
+import Yojana from "./routes/yojana";
 
 function App() {
     const router = createBrowserRouter([
@@ -24,6 +25,18 @@ function App() {
                     element: <h1 className="title">Reports</h1>,
                 },
                 {
+                    path: "yojana",
+                    element: <Yojana />,
+                },
+                {
+                    path: "new-product",
+                    element: <h1 className="title">New Product</h1>,
+                },
+                {
+                    path: "inventory",
+                    element: <h1 className="title">Inventory</h1>,
+                },
+                {
                     path: "customers",
                     element: <h1 className="title">Customers</h1>,
                 },
@@ -34,18 +47,6 @@ function App() {
                 {
                     path: "verified-customers",
                     element: <h1 className="title">Verified Customers</h1>,
-                },
-                {
-                    path: "products",
-                    element: <h1 className="title">Products</h1>,
-                },
-                {
-                    path: "new-product",
-                    element: <h1 className="title">New Product</h1>,
-                },
-                {
-                    path: "inventory",
-                    element: <h1 className="title">Inventory</h1>,
                 },
                 {
                     path: "settings",

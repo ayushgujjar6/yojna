@@ -28,9 +28,9 @@ export const navbarLinks = [
         title: "Schemes",
         links: [
             {
-                label: "Schemes",
+                label: "Yojana",
                 icon: Package,
-                path: "/products",
+                path: "/yojana",
             },
             {
                 label: "New Schemes",
