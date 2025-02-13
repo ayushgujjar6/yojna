@@ -3,8 +3,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ThemeProvider } from "@/contexts/theme-context";
 
 import Layout from "@/routes/layout";
-import About from "../../yojna/src/Component/About"
-import DashboardPage from "@/routes/dashboard/page";
+import DashboardPage from "@/routes/page";
+import Yojana from "@/routes/yojana";
+import NewYojana from "@/routes/new-yojana";
+import Category from "./routes/category";
 
 function App() {
     const router = createBrowserRouter([
@@ -33,6 +35,11 @@ function App() {
                     element: <NewYojana />,
                 },
                 {
+                    path: "category",
+                    element: <Category />,
+                },
+              
+                {
                     path: "inventory",
                     element: <h1 className="title">Inventory</h1>,
                 },
@@ -47,50 +54,6 @@ function App() {
                 {
                     path: "verified-customers",
                     element: <h1 className="title">Verified Customers</h1>,
-                },
-                {
-                    path: "products",
-                    element: <h1 className="title">Products</h1>,
-                },
-                {
-                    path: "titlepage",
-                    element: <About />,
-                },
-                {
-                    path: "titlepage2",
-                    element: <h1 className="title">Titile 2</h1>,
-                },
-                {
-                    path: "titlepage3",
-                    element: <h1 className="title">Titile 3</h1>,
-                },
-                {
-                    path: "titlepage4",
-                    element: <h1 className="title">Titile 4</h1>,
-                },
-                {
-                    path: "new-product",
-                    element: <h1 className="title">New Product</h1>,
-                },
-                {
-                    path: "titlepage5",
-                    element: <h1 className="title">Titile 1</h1>,
-                },
-                {
-                    path: "titlepage6",
-                    element: <h1 className="title">Titile 2</h1>,
-                },
-                {
-                    path: "titlepage7",
-                    element: <h1 className="title">Titile 3</h1>,
-                },
-                {
-                    path: "titlepage8",
-                    element: <h1 className="title">Titile 4</h1>,
-                },
-                {
-                    path: "inventory",
-                    element: <h1 className="title">Inventory</h1>,
                 },
                 {
                     path: "settings",
